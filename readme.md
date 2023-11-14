@@ -29,10 +29,10 @@ bash
 Copy code
 python -m venv env
 source env/bin/activate  # Sur Windows utilisez `env\Scripts\activate`
-Exécutez le fichier gui.py avec Python pour démarrer le jeu :
+Exécutez le fichier golgui.py avec Python pour démarrer le jeu :
 bash
 Copy code
-python gui.py
+python golgui.py
 
 ## Utilisation
 Une fois le jeu lancé, l'interface graphique devrait s'afficher. Voici comment vous pouvez interagir avec le jeu :
@@ -41,7 +41,7 @@ Cliquer sur une cellule : Change l'état de la cellule (vivante ou morte).
 Bouton Tambalii : Commence la simulation du jeu.
 Bouton Pause : Met en pause la simulation.
 Bouton Clear : Efface la grille et réinitialise le jeu à son état initial.
-Vous pouvez également modifier le motif initial dans le fichier gui.py avant de démarrer le jeu pour observer différentes évolutions.
+Vous pouvez également modifier le motif initial dans le fichier golgui.py avant de démarrer le jeu pour observer différentes évolutions.
 
 ## Technologies utilisées
 Python : Langage de programmation utilisé pour la logique du jeu.
